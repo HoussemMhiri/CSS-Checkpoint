@@ -1,0 +1,258 @@
+/* GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #bed9e8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+hr {
+  margin-top: 1em;
+  height: 2px;
+  background-color: black;
+}
+
+/* HEADER */
+
+header {
+  background-color: #f8f8f8;
+  padding: 3em;
+  height: 20vh;
+}
+
+nav {
+  margin-left: 40rem;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin-left: 1em;
+}
+.h1-center {
+  margin-right: 50rem;
+  text-align: center;
+  color: #143774;
+}
+
+.blue {
+  color: #143774;
+  text-align: center;
+  margin: 1em;
+}
+
+nav a {
+  color: #717171;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+nav :is(a:hover, :focus) {
+  color: #1792d2;
+}
+
+nav a:active {
+  color: #3d5987;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #143774;
+  height: 10vh;
+  text-align: center;
+  color: white;
+}
+
+.footer-p {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+}
+
+/* MAIN */
+
+main {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+  background-color: #e8eff2;
+  box-shadow: 0 0 2px #333;
+}
+
+table {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Home */
+
+.center {
+  text-align: center;
+}
+
+.p-size {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+figure img {
+  border: 2px double rgb(95, 95, 173);
+}
+
+figcaption {
+  font-weight: bold;
+  padding: 1em;
+  color: rgb(95, 95, 173);
+  font-size: 1.2rem;
+}
+
+/* ABOUT  */
+
+table {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  height: 35vh;
+  width: 100%;
+}
+th,
+.td {
+  color: #4f6c9f;
+  height: 8vh;
+}
+
+caption {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  color: #4f6c9f;
+}
+
+/* Professional Experience */
+
+.h2-color {
+  color: #3d84ad;
+}
+
+span {
+  font-weight: bold;
+  color: #d06464;
+}
+
+h3 {
+  text-decoration: underline;
+  margin: 0.5em 0em;
+}
+li,
+dd {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0.5em;
+  font-size: 18px;
+}
+
+/* RESUME */
+
+.res-h1 {
+  margin: 1em 0em;
+  font-weight: bold;
+  color: #3d84ad;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pdf {
+  height: 61vh;
+}
+
+.marg {
+  margin: 1.5em;
+}
+
+/* CONTACT */
+
+legend {
+  font-weight: bold;
+  color: #3d84ad;
+  font-size: 1.2rem;
+}
+
+fieldset {
+  height: 20vh;
+  text-align: center;
+  padding: 2em;
+}
+
+.field-p {
+  padding: 0.2em;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.filed-size {
+  height: 30vh;
+}
+
+.inp {
+  padding: 0.5em;
+  border-width: 2px;
+  margin-left: 1em;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.btns {
+  background-color: #1c64d8;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 2em 0.2em;
+  cursor: pointer;
+}
+
+.btns:hover {
+  color: rgb(14, 5, 5);
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.btn-div button {
+  background-color: #1166ef;
+  padding: 1em 0.5em;
+  border-radius: 15px;
+}
+.a-btn {
+  color: #e8eff2;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.a-btn:hover {
+  color: black;
+}
